@@ -1,34 +1,46 @@
 # vue3-minimal
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet permet de construire rapidement un site avec VueJS 3 avec le minimum de composants installés
 
-## Recommended IDE Setup
+## Recommandation pour le développement
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (supprimer éventuellement Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Pour modifier la configuration de Vite
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Voir [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Installation des dépendances
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Installation du routage
+
+```sh
+npm install vue-router@4
+```
+
+### Installation de la gestion de l'état avec Pinia
+
+```sh
+npm install pinia
+```
+
+### Lancer le serveur de développement
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Avoir un rendu pour la production
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint avec [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
