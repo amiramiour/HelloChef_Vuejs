@@ -16,17 +16,13 @@ Voir [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Installation du routage
+### Routage
 
-```sh
-npm install vue-router@4
-```
+- Le routage est déjà installé avec une configuration minimale présent dans le dossier src/router
 
-### Installation de la gestion de l'état avec Pinia
+### Gestion de l'état avec Pinia
 
-```sh
-npm install pinia
-```
+- Un store minimal est déjà installé présent dans le dossier src/stores
 
 ### Lancer le serveur de développement
 
@@ -38,10 +34,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Lint avec [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
